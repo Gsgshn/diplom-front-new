@@ -1,0 +1,36 @@
+.navigation-menu {
+    width: 200px;
+    height: 100%;
+    position: fixed;
+    left: 0;
+    top: 0;
+    background-color: #333;
+    padding: 20px 0;
+  }
+  
+  .navigation-menu ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .navigation-menu ul li {
+    margin-bottom: 10px;
+  }
+  
+  .navigation-menu ul li a {
+    display: block;
+    text-decoration: none;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+  }
+  
+  .navigation-menu ul li a:hover {
+    background-color: #555;
+  }
+  
+  .navigation-menu ul li a.active-link {
+    background-color: #5151e5;
+  }
+  
